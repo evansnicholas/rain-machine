@@ -1,0 +1,23 @@
+{
+  "name": "risk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "pretest": "npm run build",
+    "test": "mocha --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.43",
+    "mocha": "^3.2.0",
+    "rimraf": "^2.5.4",
+    "typescript": "^2.1.4"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "lodash": "^4.17.2"
+  }
+}
